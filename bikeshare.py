@@ -196,6 +196,7 @@ def main():
 
         time_stats(df)
         station_stats(df)
+        display_data(df)  # Call to display 5 rows of station-related data
         trip_duration_stats(df)
         display_data(df)  # Call to display 5 rows of trip duration-related data
         user_stats(df)
